@@ -14,3 +14,4 @@ Crie um programa que:
 valor_total = float(input("Digite o valor total consumido no restaurante (em R$): "))
 taxa_de_10 = 0.10 * valor_total + valor_total
 print(f"O valor final da conta é: {taxa_de_10} R$")
+
