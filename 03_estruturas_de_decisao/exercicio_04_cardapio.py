@@ -15,3 +15,25 @@ Calcule e mostre o total a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+#cachorro quente = 1
+#X-salada = 2
+#X-bacon = 3
+#Torrada Simples = 4
+#Refrigerante = 5
+item_consumido = input("Digite o código do item: ")
+quantidade_consumida = int(input("Digite a quantidade consumida: "))
+if item_consumido == "1":
+    total_pagar_cachorro_quente = 4.00 * quantidade_consumida
+    print(f"O valor total a pagar por esses/esse cachorros quentes é: {total_pagar_cachorro_quente}")
+if item_consumido == "2":
+    total_pagar_x_salada = 4.50 * quantidade_consumida
+    print(f"O valor total a pagar por esses/esse X-saladas é: {total_pagar_x_salada}")
+if item_consumido == "3":
+    total_pagar_X_bacon = 5.00 * quantidade_consumida
+    print(f"O valor total a pagar por esses/esse X-bacon é: {total_pagar_X_bacon}")
+if item_consumido == "4":
+    total_pagar_torrada_simples = 2.00 * quantidade_consumida
+    print(f"O valor total a pagar por essas/essa torrada simples é: {total_pagar_torrada_simples}")
+if item_consumido == "5":
+    total_pagar_refrigerante = 1.50 * quantidade_consumida
+    print(f"O valor total a pagar por esses/esse refrigerante é: {total_pagar_refrigerante}")
