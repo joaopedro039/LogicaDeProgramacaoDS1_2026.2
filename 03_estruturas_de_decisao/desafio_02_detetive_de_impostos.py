@@ -22,7 +22,7 @@ SUA MISSÃO:
 
 # TODO: Escreva aqui a versão corrigida:
 faturamento = float(input("Infrome o faturamento anual: "))
-if faturamento > 0 and faturamento <= 50000:
+if faturamento >= 0 and faturamento <= 50000:
     taxa = faturamento * 0.05
     print(f"Essa é a taxa sobre o valor de (5%) {faturamento} R$: {taxa}")
 elif faturamento > 50000 and faturamento <= 100000:
