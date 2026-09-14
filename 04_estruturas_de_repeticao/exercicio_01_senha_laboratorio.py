@@ -9,3 +9,11 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+senha = "2002"
+while True:
+    senha_digita = input("Digite sua senha: ")
+    if senha_digita == senha:
+        print("Acesso Permitido")
+        break
+    else:
+        print("Senha Invalida")
