@@ -5,3 +5,4 @@ if num % 2 == int:
     print("Esse número é par")
 else:
     print("Esse número é impar")
+    
