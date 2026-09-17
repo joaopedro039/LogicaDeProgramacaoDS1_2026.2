@@ -40,5 +40,3 @@ else:
     valor_reajuste_4 = (salario_colaborador * 0.04)
     taxa_4 = "4%"
     print(f"Novo salário: {novo_salario_4}, valor do reajuste ganho: {valor_reajuste_4} e percentual aplicado: {taxa_4}")
-
-    
