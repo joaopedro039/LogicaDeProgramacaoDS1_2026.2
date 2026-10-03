@@ -9,3 +9,9 @@ cujo resto da divisão por 5 seja igual a 2 ou igual a 3.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+x1 = int(input("Digite um número inteiro"))
+y1 = int(input("Digite um número inteiro"))
+y2 = y1 + 1
+for num in range(x1,y2):
+    if num % 5 == 2 or num % 5 == 3:
+        print(num)

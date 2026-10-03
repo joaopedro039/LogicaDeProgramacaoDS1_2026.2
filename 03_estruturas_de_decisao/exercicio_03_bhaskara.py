@@ -21,3 +21,4 @@ else:
     r2 = (-b-(math.sqrt(delta))) / (2*a)
     print(f"raiz 1 é igual á: {r1:.5f}")
     print(f"raiz 2 é igual á: {r2:.5f}")
+    print(delta)
