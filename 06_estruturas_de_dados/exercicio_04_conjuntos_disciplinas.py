@@ -8,3 +8,10 @@ Calcule e imprima a Interseção (&) e a Diferença (-).
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+alunos_web = {"João","Pedro","Davi"}
+alunos_banco = {"João","Pedro","Dantas"}
+
+interseção = (alunos_web & alunos_banco)
+diferença = (alunos_web - alunos_banco)
+print(f"A interseção: {interseção}")
+print(f"A diferença: {diferença}")

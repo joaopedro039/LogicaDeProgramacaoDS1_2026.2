@@ -12,3 +12,14 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+lista = ["banana","banana","pera","maça"]
+lista = set(lista)
+print(lista)
+
+idades = {"João":15, "lucas":20}
+
+try:
+    print(idades["ana"])
+except KeyError:
+    print("Chave não encontrada")

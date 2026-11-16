@@ -23,7 +23,7 @@ while True:
             saldo += resultado
         else:
             print("Você digitou um horario invalido!")
-            print("Digite de novo")
+            print("Digite de novo")   
     if dis_corrida < 0:
         print("O truno acabou")
         print(f"o valor total ganho no dia foi: {saldo} R$")
